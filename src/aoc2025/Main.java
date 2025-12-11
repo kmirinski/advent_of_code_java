@@ -13,6 +13,7 @@ public class Main {
         switch (day) {
             case 1 -> new Day01().run();
             case 2 -> new Day02().run();
+            case 3 -> new Day03().run();
             default -> IO.println("Day not implemented!");
         }
     }
