@@ -69,9 +69,7 @@ public class Day03 {
                     break;
                 }
             }
-
         }
-
         long result = 0;
         for (int i = 0; i < 12; i++) {
             result += (long) ((number[i] - '0') * Math.pow(10, 11 - i));
