@@ -17,6 +17,7 @@ public class Main {
             case 4 -> new Day04().run();
             case 5 -> new Day05().run();
             case 6 -> new Day06().run();
+            case 7 -> new Day07().run();
             default -> IO.println("Day not implemented!");
         }
     }
