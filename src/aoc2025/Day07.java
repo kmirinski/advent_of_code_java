@@ -13,7 +13,6 @@ public class Day07 {
         long startTime = System.nanoTime();
 
         try {
-//            Scanner fileScanner = new Scanner(new File("src/resources/day07_input.txt"));
             BufferedReader br = new BufferedReader(new FileReader("src/resources/day07_input.txt"));
 
             List<char[]> rows = new ArrayList<>();
